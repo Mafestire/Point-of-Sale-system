@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+    /* body */
+body{
+    background-color: wheat;
+}
+
+    /* nav-bar */
+.lg img{
+    width: 6rem;
+    transform: translateX(500%);
+}
+
+.nav-link:hover{
+    background-color: aqua;
+}
+
+.dropdown-menu a:hover {
+    background-color: aqua;
+}
+
+    /* logo */
+.logo{
+    text-align: center;
+}
+
+.logo img{
+    transform: translateY(5%);
+    width: 8rem;
+}
+
+
+        /* landing */
+.welcome{
+    text-align: center;
+    font-size: 26px;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 2px 2px 0 rgba( 0, 255, 255);
+    backdrop-filter: blur( 2.5px );
+    -webkit-backdrop-filter: blur( 2.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 20rem;
+    transform: translateX(105%);
+}
+
+.dis img{
+    width: 5rem;
+    grid-column: 1/2;
+    transform: translateX(340%);
+}
+
+.play img{
+    width: 7rem;
+    grid-column: 2 /-2;
+    margin-top: 2rem;
+    transform: translateX(100%);
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.info{
+    font-size: 24px;
+    width: 20rem;
+    text-align: center;
+    transform: translateY(30%);
+}
+
+.more {
+    display: grid;
+    transform: translateY(-5%);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+
+.disp img{
+    width: 9rem;
+    transform: translateX(100%);
+}
+
+.splay img{
+    width: 8rem;
+    transform: translateX(50%);
+}
