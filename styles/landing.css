@@ -15,11 +15,11 @@ body{
 }
 
 .nav-link:hover{
-    background-color: aqua;
+    background-color: #c77948;
 }
 
 .dropdown-menu a:hover {
-    background-color: aqua;
+    background-color: #c77948;
 }
 
     /* logo */
@@ -38,7 +38,7 @@ body{
     text-align: center;
     font-size: 26px;
     background: rgba( 255, 255, 255, 0.2 );
-    box-shadow: 0 2px 2px 0 rgba( 0, 255, 255);
+    box-shadow: 0 4px 6px 0 #c77948;
     backdrop-filter: blur( 2.5px );
     -webkit-backdrop-filter: blur( 2.5px );
     border-radius: 10px;
