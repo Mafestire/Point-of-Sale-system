@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout</title>
+    <link rel="stylesheet" href="../styles/checkout.css" />
+  </head>
+  <body>
+    <!-- TOP -->
+    <div class="top">
+      <div class="back">
+        <button><a href="./products.html"> back</a></button>
+      </div>
+      <div class="logo">
+        <img src="../images/logo3-removebg-preview.png" alt="" />
+      </div>
+      <div class="security"><h6>SECURE SHOPPING</h6></div>
+    </div>
+    <!-- SECOND LINE -->
+    <div class="cart"><h2>SHOPPING CART</h2></div>
+
+    <!-- THE TABLE -->
+    <table>
+      <th>ITEMS</th>
+      <th>QUANTITY</th>
+      <th>PRICE</th>
+      <th>TOTAL</th>
+
+      <tr>
+        <td id="tab"></td>
+      </tr>
+    </table>
+
+    <!-- CALCULATION -->
+    <div class="calculate">
+      <div class="sub">
+        <label class="la" for="">SUBTOTAL:</label>
+        <input type="number" name="subtotal" id="sub" />
+      </div>
+      <div class="tax">
+        <p id="tax" class="la">TAX: <span>R10</span></p>
+      </div>
+      <div class="total">
+        <label for="">TOTAL:</label>
+        <input type="number" id="total" />
+      </div>
+    </div>
+
+    <!-- CHECKOUT BUTTON -->
+    <button class="checkout">CHECKOUT</button>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer">
+        <div class="name">SEABA'S BAGS</div>
+        <div class="copy-right">
+          &copy; Seaba's Bags 2022 all copies reserved
+        </div>
+      </div>
+    </footer>
+
+    <script src="../scripts/checkout.js"></script>
+  </body>
+</html>

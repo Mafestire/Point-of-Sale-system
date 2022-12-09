@@ -1,91 +1,138 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-    /* body */
-body{
-    background-color: wheat;
+/* body */
+body {
+  background-color: wheat;
 }
 
-    /* nav-bar */
-.lg img{
-    width: 6rem;
-    transform: translateX(500%);
+/* nav-bar */
+.lg img {
+  width: 6rem;
+  transform: translateX(500%);
 }
 
-.nav-link:hover{
-    background-color: #c77948;
+.nav-link:hover {
+  background-color: #c77948;
 }
 
 .dropdown-menu a:hover {
-    background-color: #c77948;
+  background-color: #c77948;
 }
 
 .min {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    font-size: 22px;
-    margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  font-size: 22px;
+  margin-top: 1.5rem;
 }
 
-.items{
-    text-align: center;
-    font-size: 26px;
+.items {
+  text-align: center;
+  font-size: 26px;
 }
 
-span{
-    font-size: 22px;
+span {
+  font-size: 22px;
 }
 
-.title{
-    transform: translateX(15%);
+.title {
+  transform: translateX(15%);
 }
 
-.add{
-    text-align: end;
-    transform: translateX(-15%);
+.add {
+  text-align: end;
+  transform: translateX(-15%);
 }
 
 /* add button */
-.add-item, .sort-item {
-    font-size: 18px;
-    background-color: #c77948;
-    border: 1px solid #c77948;
-    border-radius: 20%;
+.add-item,
+.sort-item {
+  font-size: 18px;
+  background-color: #c77948;
+  border: 1px solid #c77948;
+  border-radius: 20%;
 }
-.add-item{
-    transform: translateX(280%);
+.add-item {
+  transform: translateX(280%);
 }
-.sort-item{
-    transform: translateX(230%);
+.sort-item {
+  transform: translateX(230%);
 }
 
 /* table */
 table {
-    /* background-color: aquamarine; */
-    width: 58rem !important;
-    font-size: 2px;
-    margin: 0rem;    transform: translateX(1%);
+  width: 58rem !important;
+  font-size: 2px;
+  margin: 0rem;
+  transform: translateX(1%);
 }
 
-th{
-    border-right: 2px solid #c77948;
-    border-bottom: 2px solid #c77948;
-    font-size: 22px;
+th {
+  border-right: 2px solid #c77948;
+  border-bottom: 2px solid #c77948;
+  font-size: 22px;
 }
 
 .td {
-    border-right: 2px solid #c77948;
+  border-right: 2px solid #c77948;
 }
 
-.head{
-    font-size: 20px;
+.head {
+  font-size: 20px;
 }
 
-#delelete, #edit{
-    font-size: 16px;
-    border-radius: 50%;
-    border: 1px solid #c77948;
+#delelete,
+#edit {
+  font-size: 16px;
+  border-radius: 50%;
+  border: 1px solid #c77948;
+}
+
+/* modal */
+
+h5 {
+  color: wheat;
+  font-size: 28px;
+}
+
+label {
+  font-size: 20px;
+}
+
+input {
+  font-size: 15px;
+  background-color: wheat;
+  width: 15rem;
+  text-align: center;
+}
+
+.buttns {
+  margin-top: 10px;
+}
+
+/* modal form */
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/* FOOTER */
+.footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  bottom: 0;
+  background-color: #c77948;
+}
+
+.name {
+  font-size: 24px;
+}
+
+.copyright {
+  font-size: 18px;
 }

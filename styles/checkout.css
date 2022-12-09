@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: wheat;
+}
+
+/* top */
+.top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  transform: translateY(10%);
+}
+
+.back button {
+  font-size: 26px;
+  border: 0px;
+  background-color: wheat;
+  grid-column: 1/2;
+  transform: translateX(25%);
+}
+.back a {
+  color: #c77948;
+}
+.security {
+  font-size: 32px;
+  color: #c77948;
+  transform: translateX(45%);
+}
+.logo img {
+  width: 10rem;
+  display: flex;
+  transform: translateX(110%);
+}
+
+/* SECOND LINE */
+.cart {
+  font-size: 30px;
+  text-align: center;
+  color: #c77948;
+  transform: translateY(10%);
+}
+
+/* checkout button */
+.checkout {
+  font-size: 24px;
+  padding: 10px;
+  background-color: #c77948;
+  color: wheat;
+  border: 2px solid wheat;
+  transform: translateX(510%);
+}
+
+/* calculation */
+.calculate {
+  margin-top: 20px;
+  background-color: #c77948;
+  width: 16rem;
+  padding: 10px;
+  transform: translateX(250%);
+}
+
+.la {
+  font-size: 22px;
+}
+
+span {
+  font-size: 20px;
+  margin-left: 90px;
+}
+
+.total {
+  font-size: 28px;
+  margin-top: 15px;
+}
+
+input {
+  text-align: center;
+  transform: translateX(20%);
+  width: 6rem;
+  height: 1.5rem;
+}
+
+#total {
+  transform: translateX(41%);
+}
+
+/* TABLE */
+table {
+  width: 50rem;
+  transform: translateX(20%);
+  margin-right: 30px;
+}
+
+th {
+  border-bottom: 2px solid #c77948;
+}
+
+tr {
+  border-bottom: 2px solid #c77948;
+}
+
+/* FOOTER */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    bottom: 0;
+    background-color: #c77948;
+  }
+  
+  .name {
+    font-size: 24px;
+  }
+  
+  .copyright {
+    font-size: 18px;
+  }
+  
