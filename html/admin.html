@@ -57,7 +57,7 @@
         <a class="nav-link" href="./checkout.html" style="color: black">Checkout</a>
       </li>
       <li class="lg">
-        <img src="../images/logo3-removebg-preview.png" alt="" srcset="" />
+        <img src="https://i.postimg.cc/8CPcYWPX/logo3-removebg-preview.png" alt="" srcset="" />
       </li>
     </ul>
 
@@ -69,9 +69,12 @@
       <div class="items">
         <h5>Item's list</h5>
       </div>
+      <div class="filter-item" >
+        <button id="filter">FILTER</button>
+      </div>
       <div class="sort_items">
         <button class="sort-item" id="sort" >
-          Sort Iterms
+          SORT
         </button>
         <button
           class="add-item"
@@ -84,7 +87,7 @@
       </div>
     </div>
 
-    <!-- modal -->
+    <!-- modal for ADDING ITEM-->
     <div class="modal modal" tabindex="-1" id="addProd" style="width: 18rem; transform: translateX(150%);" >
       <div class="modal-dialog" >
         <div class="modal-content" style="  background-color: #c77948;">
@@ -94,8 +97,6 @@
           </div>
           <div class="modal-body">
             <form action="" class="form">
-              <label for="">item no.</label>
-              <input type="number" class="input" id="no." placeholder="no.">
               <label for="">Product Name</label>
               <input type="text" class="input" id="name" placeholder="name" />
               <label for="">Product ID</label>
@@ -107,22 +108,48 @@
             </form>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn" data-bs-reset="modal" style="  background-color: wheat; font-size: 18px;">Reset</button>
             <button type="button" id="addn" class="btn" style="  background-color: wheat; font-size: 18px;">Add Item</button>
           </div>
         </div>
       </div>
     </div>
 
+        <!-- modal for EDITING ITEM-->
+        <div class="modal modal" tabindex="-1" id="editProd" style="width: 18rem; transform: translateX(150%);" >
+          <div class="modal-dialog" >
+            <div class="modal-content" style="  background-color: #c77948;">
+              <div class="modal-header">
+                <h5 class="modal-title">Edit an Item</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form action="" class="form">
+                  <label for="">Product Name</label>
+                  <input type="text" class="input" id="editName" placeholder="name" />
+                  <label for="">Product ID</label>
+                  <input type="number" class="input" id="editId" placeholder="id" />
+                  <label for="">Product Colour</label>
+                  <input type="text" class="input" id="editColor" placeholder="color" />
+                  <label for="">Product Price</label>
+                  <input type="number" class="input" id="editPrice" placeholder="price" />
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" id="editing" class="btn" style="  background-color: wheat; font-size: 18px;">Add Item</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
     <!-- <label for=""></label> -->
     <table class="table">
       <thead>
         <tr>
-          <th id="num">no.</th>
           <th id="name">Product name</th>
           <th id="id">Product id</th>
           <th id="price">Product Price</th>
           <th id="colour">Product Colour</th>
+          <th id="category">Category</th>
           <th id="edt">Edit</th>
           <th id="delete">Delete</th>
         </tr>

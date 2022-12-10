@@ -50,17 +50,17 @@ span {
 
 /* add button */
 .add-item,
-.sort-item {
+.sort-item, #filter {
   font-size: 18px;
   background-color: #c77948;
   border: 1px solid #c77948;
   border-radius: 20%;
 }
 .add-item {
-  transform: translateX(280%);
+  transform: translateX(200%);
 }
 .sort-item {
-  transform: translateX(230%);
+  transform: translateX(190%);
 }
 
 /* table */
@@ -127,6 +127,7 @@ input {
   grid-template-rows: repeat(1, 1fr);
   bottom: 0;
   background-color: #c77948;
+  
 }
 
 .name {

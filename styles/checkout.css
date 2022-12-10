@@ -28,12 +28,12 @@ body {
 .security {
   font-size: 32px;
   color: #c77948;
-  transform: translateX(45%);
+ 
 }
 .logo img {
   width: 10rem;
   display: flex;
-  transform: translateX(110%);
+  transform: translateX(50%);
 }
 
 /* SECOND LINE */
@@ -110,6 +110,8 @@ tr {
     grid-template-rows: repeat(1, 1fr);
     bottom: 0;
     background-color: #c77948;
+    position: fixed;
+    width: 62rem;
   }
   
   .name {
