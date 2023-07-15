@@ -5,14 +5,27 @@
 
     /* body */
 body{
-    background-color: wheat;
+    background-color: white;
 }
+
 
     /* nav-bar */
 .lg img{
-    width: 6rem;
-    transform: translateX(500%);
+    width: 9rem;
+    margin-right: 2rem;
 }
+
+.navbar{
+    padding: 1.5rem 3rem ;
+    font-size: 1.3rem;
+}
+
+.nav-link, .active{
+    color: #c77948;
+
+}
+
+
 
 .nav-link:hover{
     background-color: #c77948;
@@ -23,57 +36,59 @@ body{
 }
 
     /* logo */
-.logo{
+/* .logo{
     text-align: center;
 }
 
 .logo img{
     transform: translateY(5%);
     width: 8rem;
-}
+} */
 
 
         /* landing */
 .welcome{
     text-align: center;
-    font-size: 26px;
-    background: rgba( 255, 255, 255, 0.2 );
-    box-shadow: 0 4px 6px 0 #c77948;
-    backdrop-filter: blur( 2.5px );
-    -webkit-backdrop-filter: blur( 2.5px );
-    border-radius: 10px;
+    position: absolute;
+    top: 30%;
+    left: 33%;
+    justify-content: center;
+    align-items: center;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    width: 20rem;
-    transform: translateX(105%);
+    width: 30rem;
 }
 
-.dis img{
+h2{
+    font-size: 5rem;
+}
+
+/* .dis img{
     width: 5rem;
     grid-column: 1/2;
     transform: translateX(340%);
-}
+} */
 
-.play img{
+/* .play img{
     width: 7rem;
     grid-column: 2 /-2;
     margin-top: 2rem;
     transform: translateX(100%);
-}
+} */
 
-.cont {
+/* .cont {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(1, 1fr);
-}
+} */
 
-.info{
+/* .info{
     font-size: 24px;
     width: 20rem;
     text-align: center;
     transform: translateY(30%);
-}
+} */
 
-.more {
+/* .more {
     display: grid;
     transform: translateY(-5%);
     grid-template-columns: repeat(3, 1fr);
@@ -88,4 +103,4 @@ body{
 .splay img{
     width: 8rem;
     transform: translateX(50%);
-}
+} */
