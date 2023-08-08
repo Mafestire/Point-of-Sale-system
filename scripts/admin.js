@@ -64,7 +64,7 @@ async function display() {
   trow.innerHTML = "";
   productList.forEach((list) => {
     trow.innerHTML += `
-            <tr style="font-size: 20px; border-right: 2px solid #c77948; border-bottom: 2px solid #c77948;">
+            <tr style="font-size: 20px; border: 2px solid black; border-right: 2px solib black">
                 <td>${list.productName}</td>
                 <td>${list.id}</td>
                 <td>${list.productPrice}</td>
@@ -124,12 +124,14 @@ let idEdit = 0;
 function proEdit(i){
   let edit = productList[i];
   console.log(edit);
+  console.log("hi");
     document.querySelector("#editName").value = edit.productName;
     document.getElementById("editId").value = edit.id;
     document.getElementById("editPrice").value = edit.productPrice;
     document.getElementById("editColor").value = edit.colour;  
-    docu
+    // docu
     idEdit = 1;
+    console.log(idEdit);
 }
 
 function edited(){
